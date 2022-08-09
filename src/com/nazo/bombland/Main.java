@@ -1,12 +1,15 @@
 package com.nazo.bombland;
 
-import com.nazo.bombland.gui.GameFrame;
+import com.nazo.bombland.game.Game;
 
 public class Main {
 
 
     public  static void  main(String args[]){
 
-        new GameFrame().setVisible(true);
+        Game game=new Game();
+
+        System.out.println(game);
+
     }
 }
