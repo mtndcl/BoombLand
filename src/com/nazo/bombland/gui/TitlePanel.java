@@ -8,6 +8,6 @@ public class TitlePanel extends JPanel {
     public  TitlePanel(){
 
         setPreferredSize(new Dimension(500,40));
-        this.setBorder(BorderFactory.createLineBorder(Color.BLUE));
+        setBorder(BorderFactory.createLineBorder(Color.BLUE));
     }
 }
