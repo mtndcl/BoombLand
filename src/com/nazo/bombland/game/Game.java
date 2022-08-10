@@ -107,13 +107,13 @@ public class Game {
                         if (i>=1 && j<9 && gameArea[i-1][j+1].equals("b")){
                             bombCount++;
                         }
-                        if (j>1 && gameArea[i][j-1].equals("b")){
+                        if (j>=1 && gameArea[i][j-1].equals("b")){
                             bombCount++;
                         }
                         if ( j<9 &&gameArea[i][j+1].equals("b")){
                             bombCount++;
                         }
-                        if (i<9 &&j>1 &&gameArea[i+1][j-1].equals("b")){
+                        if (i<9 &&j>=1 &&gameArea[i+1][j-1].equals("b")){
                             bombCount++;
                         }
                         if (i<9 && gameArea[i+1][j].equals("b")){
