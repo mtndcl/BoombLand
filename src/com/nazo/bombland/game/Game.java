@@ -19,23 +19,19 @@ public class Game {
         }
         plantBomb();
         detactBombNumber();
-        run();
+       // openArea();
 
 
 
 
     }
 
-    public void run(){
 
 
-        openArea();
 
-
-    }
     public void openArea(){
 
-        System.out.println("Lütfen Koordinatları Seçiniz...");
+
       //  Scanner scanner = new Scanner(System.in);
         int i = 2;
         int j = 3;
@@ -160,5 +156,10 @@ public class Game {
             stringBuilder.append("\n");
         }
         return stringBuilder.toString();
+    }
+
+    public String getUnit(int i, int j) {
+
+        return  gameArea[i][j];
     }
 }
